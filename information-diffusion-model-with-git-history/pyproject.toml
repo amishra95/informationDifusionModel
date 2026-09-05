@@ -1,0 +1,19 @@
+[project]
+name = "information-diffusion-model"
+version = "0.1.0"
+description = "Network information diffusion + Kyle microstructure + PIN estimation"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "networkx>=3.0",
+    "matplotlib>=3.7",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["information_diffusion_model"]
